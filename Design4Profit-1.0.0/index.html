@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script>
+            function alertFunction(){
+                alert("welcome to my page!!!")
+            }
+                alertFunction()
+        </script>
+
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>dizzy</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/ionicons.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- font -->
+        <link href='http://fonts.googleapis.com/css?family=Nova+Square' rel='stylesheet'>
+        <link rel="stylesheet" href="font/font.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <section class="section-1">
+                <div class="container">
+                    <header class="site-header">
+                        <div class="row">
+                            <div class="col-sm-4 col-xs-8">
+                                <h1 class="logo"><a href="index.html">Final semester project</a></h1>
+                            </div>
+                            <div class="col-sm-8 col-xs-4">
+                                <nav class="navbar pull-right" role="navigation">
+                                    <!-- Brand and toggle get grouped for better mobile display -->
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                        <span class="ion-navicon"></span>
+                                    </button>
+
+                                    <!-- Collect the nav links, forms, and other content for toggling -->
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="https://themewagon.com/themes/design4profit-responsive-business-template/">original template</a></li>
+                                            <li><a href="team.html">about</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </div><!-- /.navbar-collapse -->
+                                </nav>
+                            </div>
+                        </div>  <!-- row -->
+                    </header>   <!-- site header -->
+
+                    <h1 class="promo-text">Just trying to get by :></h1>
+                    <div class="CTA text-center">
+                        <a class="btn-CTA" onclick="interactiveFunction()">click me!!</a></button>
+                        <script src = "js/forms.js"></script>
+                        <a href="https://www.youtube.com/watch?v=PUoPGQHBO0U&ab_channel=LEMONATORPK" class="btn-CTA">dontclick me!!</a></button>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="section-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-1">
+                            <div class="icon-holder icon-holder-1">
+                                <span class="ion-ios7-people-outline"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-11">
+                             <p class="feature">I'm just a broke university student, passing time playing old video games and making games too</p>
+                        </div>
+                    </div>  <!-- row -->
+
+                    <div class="row">
+                        <div class="col-md-1">
+                            <div class="icon-holder icon-holder-2">
+                                <span class="ion-ios7-search"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-11">
+                             <p class="feature">Doctor pepper</p>
+                        </div>
+                    </div>  <!-- row -->
+
+                    <div class="row">
+                        <div class="col-md-1">
+                            <div class="icon-holder icon-holder-3">
+                                <span class="ion-ios7-cloudy-night-outline"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-11">
+                             <p class="feature feature-last"> I can also do repairs of old handheld consoles too, like the psp</p>
+                        </div>
+                    </div>  <!-- row -->
+                </div>
+            </section>  <!-- section-2 -->
+
+            <section class="section-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <header class="section-header">Accolades and projects</header>
+                            <div class="owl-carousel">
+                                <div class="slider-item">
+                                    <figure class="testimonial-img">
+                                        <img src="image/Super_Smash_Bros_Melee_box_art.png">
+                                    </figure>
+                                    <blockquote>Reached No 1 ranking in super smash bros melee rankings in Indonesia</blockquote>
+                                    <h1 class="client-name">esports</h1>
+                                    <span class="client-designation">Super smash bros melee</span>
+                                </div>
+                                <div class="slider-item">
+                                    <figure class="testimonial-img">
+                                        <img src="image/Screenshot 2024-02-17 165406.png">
+                                    </figure>
+                                    <blockquote>Currently developing an rpg game</blockquote>
+                                    <h1 class="client-name">Game development</h1>
+                                    <span class="client-designation">Title not yet decided</span>
+                                </div>
+                                <div class="slider-item">
+                                    <figure class="testimonial-img">
+                                        <img src="image/Screenshot 2025-07-12 225357.png" >
+                                    </figure>
+                                    <blockquote>Lead game designer at Team Caelum(game studio)</blockquote>
+                                    <h1 class="client-name">Game Design</h1>
+                                    <span class="client-designation">Project name cannot be stated due to NDA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <footer class="site-footer">
+                <div class="copyright">
+                    TIU student ID: 24229033(Lee Byeonguk)
+                </div>
+            </footer>
+        </div>  <!-- wrapper -->
+
+        <!-- js -->
+        <script src="js/jquery-2.1.3.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.owl-carousel').owlCarousel({
+                    loop:true,
+                    margin:10,
+                    autoplay:true,
+                    autoplayTimeout:3000,
+                    autoplayHoverPause:true,
+                    responsiveClass:true,
+                    responsive:{
+                            0:{
+                                items:1,
+                            },
+                            600:{
+                                items:1,
+                            },
+                            1000:{
+                                items:1,
+                            }
+                    }
+                })
+            });
+        </script>
+        
+    </body>
+</html>
